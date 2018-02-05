@@ -1,4 +1,4 @@
-# Battalion Server Updator
+# Battalion Server Updater
 *Only tested on Debian 9*
 
 The Battalion server updator is a very basic python script made to make updating a Battation1994 server easier.
@@ -24,7 +24,8 @@ sudo apt-get install python3.6
 (Optional) If you want to easily update this script when I push changes, install with git.
 ```sh
 sudo apt-get install git
-git clone https://github.com/jvanst/battalion-dedicated-server.git ~
+git clone https://github.com/jvanst/battalion-dedicated-server.git Battalion
+cd Battalion
 ```
 
 Now you should have `linux_server.py`
